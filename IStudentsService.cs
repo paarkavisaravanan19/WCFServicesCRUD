@@ -23,6 +23,7 @@ namespace WCFStudentService
         [OperationContract]
         void DeleteStudent(int StudentID);
     }
+
     [DataContract]
     public class StudentContract
     {
